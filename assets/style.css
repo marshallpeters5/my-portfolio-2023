@@ -1,0 +1,20 @@
+:root {
+    --tigerseye: #D98338;
+    --honey: #F2B13F;
+    --cream: #FDFFF7;
+    --sand: #FFFACD;
+    --royal: #8645f7;
+    --crimson: #992409;
+    --charcoal: #1C1C1C;
+}
+
+#bg{
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+  background: #FDFFF7;
+  background: linear-gradient(to bottom,  #8645f7 0%, #D98338 36%, #F2B13F 57%,#FDFFF7 100%);
+  }
+
