@@ -60,19 +60,31 @@ html{
 
   aside{
     height: 800px;
-    top: 0;
-    left: 0;
+    width: 252px;
+    border-right: 2px solid var(--cream);
+    background-image: url("./photos/yellow-purple-gradient.png");
   }
 
-  aside img{
-    object-fit: cover;
-    width: 250px;
-    height: 100%;
-    border-right: 2px solid var(--cream);
+  aside h3{
+    color: var(--cream);
+    background-color: var(--tigerseye);
+    text-align: center;
+    border: 1px solid var(--charcoal);
+    padding: 10px 10px;
+    width: 75%;
+    margin: auto;
+    position: relative;
+    top: 10%;
+    text-shadow: 2px 2px 5px var(--charcoal);
   }
+
 @media only screen and (max-width: 1000px){
-  aside img{
+  aside{
     width: 25%;
+  }
+  aside h3{
+    font-weight: lighter;
+    font-size: x-small;
   }
   nav{
     width: 240px;
