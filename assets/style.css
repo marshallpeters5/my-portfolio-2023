@@ -23,6 +23,8 @@
     text-align: center;
     color: var(--cream);
     border-bottom: 2px solid var(--cream);
+    text-shadow: 5px 5px 10px var(--charcoal);
+    padding: 10px;
   }
 
   header h1 {
@@ -39,17 +41,19 @@
     position:sticky;
     width:480px;
     margin: 20px auto;
+    height: 40px;
   }
   nav ul li{
     display:inline-block;
     width:160px;
-    padding:10px 0 10px 0;
+    padding:10px 10px;
     margin:-1px -5px -1px -1px;
 
   }
   nav ul li:hover{
     background:rgba(255,255,255,.1);
     cursor:pointer;
+    text-decoration: underline;
   }
   nav ul{
     border: 1px solid var(--cream);
