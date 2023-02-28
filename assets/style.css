@@ -66,16 +66,19 @@ html{
   }
 
   aside h3{
+    font-size: 32px;
     color: var(--cream);
-    background-color: var(--tigerseye);
     text-align: center;
-    border: 1px solid var(--charcoal);
     padding: 10px 10px;
-    width: 75%;
+    width: 100%;
     margin: auto;
     position: relative;
-    top: 10%;
     text-shadow: 2px 2px 5px var(--charcoal);
+  }
+
+  .sidebar{
+    position: relative;
+    padding: 15%;
   }
 
 @media only screen and (max-width: 1000px){
@@ -83,8 +86,7 @@ html{
     width: 25%;
   }
   aside h3{
-    font-weight: lighter;
-    font-size: x-small;
+    font-size: 14px;
   }
   nav{
     width: 240px;
@@ -97,4 +99,13 @@ html{
     width: 80px;
   }
   
+}
+@media only screen and (max-width: 500px){
+  aside{
+    width: 25%;
+  }
+  aside h3{
+    font-weight: lighter;
+    font-size: 10px;
+  }
 }
