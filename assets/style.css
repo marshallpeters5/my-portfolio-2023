@@ -8,7 +8,7 @@
     --charcoal: #1C1C1C;
 }
 
-#bg{
+html{
     position:fixed;
     left:0;
     top:0;
@@ -19,7 +19,6 @@
 
   header {
     position: relative;
-    margin: 2% auto;
     text-align: center;
     color: var(--cream);
     border-bottom: 2px solid var(--cream);
@@ -58,3 +57,32 @@
   nav ul{
     border: 1px solid var(--cream);
   }
+
+  aside{
+    height: 800px;
+    top: 0;
+    left: 0;
+  }
+
+  aside img{
+    object-fit: cover;
+    width: 250px;
+    height: 100%;
+    border-right: 2px solid var(--cream);
+  }
+@media only screen and (max-width: 1000px){
+  aside img{
+    width: 25%;
+  }
+  nav{
+    width: 240px;
+  }
+  nav ul{
+    width: 240px;
+    display: inline-block;
+  }
+  nav ul li{
+    width: 80px;
+  }
+  
+}
