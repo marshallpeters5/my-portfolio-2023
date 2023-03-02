@@ -99,6 +99,27 @@ body{
     box-shadow: 5px 5px 10px var(--charcoal);
   }
 
+  article{
+    width: 80%;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    left: auto;
+    position: relative;
+  }
+
+  .card{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  article section a img{
+    width: 300px;
+    border: 2px solid var(--cream);
+  }
+
   aside{
     position: relative;
     height: 1500px;
@@ -114,7 +135,7 @@ body{
     padding: 150px 10px;
     width: 100%;
     position: relative;
-    text-shadow: 2px 2px 5px var(--charcoal);
+    text-shadow: 5px 5px 5px var(--charcoal);
   }
 
   .sidebar{
@@ -134,7 +155,7 @@ body{
 
   footer h4{
     font-size: large;
-    margin: 40px;
+    margin: 30px;
     padding: 20px;
     background-color: var(--tigerseye);
     color: var(--cream);
@@ -164,6 +185,9 @@ body{
   #me{
     width: 200px;
     height: 150px;
+  }
+  article{
+    width: 75%;
   }
   aside{
     width: 25%;
