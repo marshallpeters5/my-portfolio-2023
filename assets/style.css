@@ -8,6 +8,10 @@
     --charcoal: #1C1C1C;
 }
 
+body{
+  text-shadow: 5px 5px 10px var(--charcoal);
+}
+
 #background{
     position:fixed;
     left:0;
@@ -15,7 +19,6 @@
     width:100%;
     height:100%;
     background: linear-gradient(to bottom,  var(--royal) 0%, var(--tigerseye) 33%, var(--honey) 66%, var(--sand) 100%);
-    text-shadow: 3px 3px 7px var(--charcoal);
   }
 
   header {
@@ -166,7 +169,8 @@
     width: 25%;
   }
   aside h3{
-    font-size: 14px;
+    font-size: 22px;
+    margin-left: 0px;
   }
   nav{
     width: 240px;
@@ -182,7 +186,8 @@
 
 @media only screen and (max-width: 500px){
   content p{
-    font-size: 10px;
+    font-size: 9px;
+    font-weight: lighter;
   }
   #me{
     width: 50%;
@@ -193,6 +198,7 @@
   }
   aside h3{
     font-weight: lighter;
-    font-size: 11px;
+    font-size: 10px;
+
   }
 }
