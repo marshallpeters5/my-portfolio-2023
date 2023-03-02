@@ -124,6 +124,8 @@ html{
     position: relative;
   }
 
+/* Scales until 250px width (incredibly small) */
+
 @media only screen and (max-width: 1000px){
   content{
     font-size: 12px;
