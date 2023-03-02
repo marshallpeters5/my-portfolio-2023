@@ -15,6 +15,7 @@ html{
     width:100%;
     height:100%;
     background: linear-gradient(to bottom,  var(--royal) 0%, var(--tigerseye) 33%, var(--honey) 66%, var(--sand) 100%);
+    text-shadow: 3px 3px 7px var(--charcoal);
   }
 
   header {
@@ -34,16 +35,6 @@ html{
 
   header p{
     font-size: small;
-  }
-
-  section img{
-    object-fit: cover;
-    float: right;
-    border-radius: 10px;
-    border: 2px solid var(--cream);
-    width: 200px;
-    height: 160px;
-    margin: 20px;
   }
 
   nav{
@@ -72,9 +63,42 @@ html{
     border: 1px solid var(--cream);
   }
 
+  content{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    left: auto;
+    position: relative;
+    float: right;
+    border-bottom: 2px solid var(--cream);
+    justify-content: center;
+  }
+  
+  content p{
+    color: var(--cream);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 500px;
+    line-height: 1.5;
+  }
+
+  #me{
+    display: flex;
+    flex-wrap: wrap;
+    object-fit:cover;
+    border-radius: 10px;
+    border: 2px solid var(--cream);
+    width: 280px;
+    height: 230px;
+    margin: 20px;
+    box-shadow: 5px 5px 10px var(--charcoal);
+  }
+
   aside{
     height: 800px;
-    width: 252px;
+    width: 20%;
     border-right: 2px solid var(--cream);
     background-image: url("./photos/yellow-purple-gradient.png");
   }
@@ -83,9 +107,8 @@ html{
     font-size: 32px;
     color: var(--cream);
     text-align: center;
-    padding: 10px 10px;
+    padding: 150px 10px;
     width: 100%;
-    margin: auto;
     position: relative;
     text-shadow: 2px 2px 5px var(--charcoal);
   }
@@ -102,6 +125,17 @@ html{
   }
 
 @media only screen and (max-width: 1000px){
+  content{
+    font-size: 12px;
+    width: 75%;
+    left: auto;
+    font-size: smaller;
+    padding: 10px;
+  }
+  #me{
+    width: 200px;
+    height: 150px;
+  }
   aside{
     width: 25%;
   }
@@ -121,11 +155,18 @@ html{
 }
 
 @media only screen and (max-width: 500px){
+  content p{
+    font-size: 10px;
+  }
+  #me{
+    width: 50%;
+    height: 50%;
+  }
   aside{
     width: 25%;
   }
   aside h3{
     font-weight: lighter;
-    font-size: 10px;
+    font-size: 11px;
   }
 }
