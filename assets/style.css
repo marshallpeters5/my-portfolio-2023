@@ -72,7 +72,7 @@ html{
     position: relative;
     float: right;
     border-bottom: 2px solid var(--cream);
-    justify-content: center;
+    justify-content: space-evenly;
   }
   
   content p{
