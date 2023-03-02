@@ -8,7 +8,7 @@
     --charcoal: #1C1C1C;
 }
 
-html{
+#background{
     position:fixed;
     left:0;
     top:0;
@@ -38,7 +38,7 @@ html{
   }
 
   nav{
-    position:sticky;
+    position:relative;
     width:480px;
     margin: 20px auto;
     height: 40px;
@@ -97,7 +97,8 @@ html{
   }
 
   aside{
-    height: 800px;
+    position: relative;
+    height: 1500px;
     width: 20%;
     border-right: 2px solid var(--cream);
     background-image: url("./photos/yellow-purple-gradient.png");
@@ -119,15 +120,32 @@ html{
   }
 
   footer{
+    border-top: 2px solid var(--cream);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    background-image: url("./photos/purple-brick-wall.jpg");
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("./photos/purple-vector.jpg");
     position: relative;
   }
 
   footer h4{
-    margin: 20px;
+    font-size: large;
+    margin: 40px;
+    padding: 20px;
+    background-color: var(--tigerseye);
+    color: var(--cream);
+    border: 2px solid var(--cream);
+    text-shadow: 5px 5px 10px var(--charcoal);
+    box-shadow: 20px 20px 20px var(--charcoal);
+  }
+  
+  footer a{
+    text-decoration: none;
+    color: var(--cream);
+  }
+  footer a:hover{
+    text-decoration: underline;
   }
 
 /* Scales until 250px width (incredibly small) */
