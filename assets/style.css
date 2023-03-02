@@ -36,6 +36,16 @@ html{
     font-size: small;
   }
 
+  section img{
+    object-fit: cover;
+    float: right;
+    border-radius: 10px;
+    border: 2px solid var(--cream);
+    width: 200px;
+    height: 160px;
+    margin: 20px;
+  }
+
   nav{
     position:sticky;
     width:480px;
@@ -43,14 +53,16 @@ html{
     height: 40px;
   }
 
-  nav ul li{
+  nav ul a{
     display:inline-block;
     width:160px;
     padding:10px 10px;
     margin:-1px -5px -1px -1px;
+    text-decoration: none;
+    color: var(--cream);
   }
 
-  nav ul li:hover{
+  nav ul a:hover{
     background:rgba(255,255,255,.1);
     cursor:pointer;
     text-decoration: underline;
@@ -83,6 +95,12 @@ html{
     padding: 15%;
   }
 
+  footer{
+    background-image: url("./photos/purple-brick-wall.jpg");
+    width: 100%;
+    position: relative;
+  }
+
 @media only screen and (max-width: 1000px){
   aside{
     width: 25%;
@@ -97,7 +115,7 @@ html{
     width: 240px;
     display: inline-block;
   }
-  nav ul li{
+  nav ul a{
     width: 80px;
   }
 }
