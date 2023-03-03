@@ -87,6 +87,10 @@ body{
     line-height: 1.5;
   }
 
+  img{
+    box-shadow: 5px 5px 10px var(--charcoal);
+  }
+
   #me{
     display: flex;
     flex-wrap: wrap;
@@ -96,33 +100,42 @@ body{
     width: 280px;
     height: 230px;
     margin: 20px;
-    box-shadow: 5px 5px 10px var(--charcoal);
   }
 
   article{
+    padding: 20px;
     width: 80%;
     float: right;
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
+    justify-content: center;
     left: auto;
     position: relative;
   }
 
-  .card{
+  article a{
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: center;
+    border: 2px solid var(--cream);
+    margin: 50px;
   }
 
-  article section a img{
-    width: 300px;
-    border: 2px solid var(--cream);
+  .secondary{
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+  }
+
+  #primary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   aside{
     position: relative;
-    height: 1500px;
+    height: 2100px;
     width: 20%;
     border-right: 2px solid var(--cream);
     background-image: url("./photos/yellow-purple-gradient.png");
@@ -186,9 +199,6 @@ body{
     width: 200px;
     height: 150px;
   }
-  article{
-    width: 75%;
-  }
   aside{
     width: 25%;
   }
@@ -216,6 +226,7 @@ body{
   #me{
     width: 50%;
     height: 50%;
+  
   }
   aside{
     width: 25%;
