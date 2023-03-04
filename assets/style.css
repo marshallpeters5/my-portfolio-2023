@@ -118,6 +118,14 @@ body{
     border: 2px solid var(--cream);
   }
 
+  article a img:hover{
+    transform: scale(1.01);
+  }
+
+  article a img:active{
+    transform: scale(.98);
+  }
+
   article a{
     display: flex;
     flex-wrap: wrap;
