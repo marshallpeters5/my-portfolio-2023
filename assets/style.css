@@ -133,7 +133,7 @@ body{
     margin: 20px;
     box-shadow: 5px 5px 10px var(--charcoal);
     border: 2px solid var(--cream);
-    background-image: url(./photos/purple-vector.jpg);
+    background-image: url(./photos/yellow-purple-gradient.png);
   }
 
   .secondary{
@@ -154,7 +154,7 @@ body{
     height: 2500px;
     width: 20%;
     border-right: 2px solid var(--cream);
-    background-image: url("./photos/purple-vector.jpg");
+    background-image: url("./photos/yellow-purple-gradient.png");
   }
 
   aside h3{
