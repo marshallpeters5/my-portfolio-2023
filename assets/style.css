@@ -25,15 +25,12 @@ body{
   header {
     position: relative;
     text-align: center;
-    color: var(--cream);
     border-bottom: 2px solid var(--cream);
-    text-shadow: 5px 5px 10px var(--charcoal);
     padding: 10px;
   }
 
   header h1 {
     font-size: 300%;
-    color: var(--cream);
     margin: 20px auto;
   }
 
@@ -64,7 +61,7 @@ body{
   }
 
   nav ul{
-    border: 1px solid var(--cream);
+    border: 2px solid var(--cream);
   }
 
   content{
@@ -164,7 +161,6 @@ body{
     padding: 150px 10px;
     width: 100%;
     position: relative;
-    text-shadow: 5px 5px 5px var(--charcoal);
   }
 
   .sidebar{
@@ -190,7 +186,6 @@ body{
     color: var(--cream);
     border-radius: 10px;
     border: 2px solid var(--cream);
-    text-shadow: 5px 5px 10px var(--charcoal);
     box-shadow: 20px 20px 20px var(--charcoal);
   }
   
