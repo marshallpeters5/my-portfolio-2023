@@ -122,6 +122,13 @@ body{
     margin: 50px;
   }
 
+  .card{
+    margin: 20px;
+    box-shadow: 5px 5px 10px var(--charcoal);
+    border: 2px solid var(--cream);
+    background-image: url(./photos/purple-vector.jpg);
+  }
+
   .secondary{
     width: 500px;
     height: 350px;
@@ -203,6 +210,12 @@ body{
   }
   article{
     width: 75%;
+  }
+  article a{
+    margin: 15px;
+  }
+  .card{
+    margin: 10px;
   }
   #primary{
     width: 300px;
