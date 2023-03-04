@@ -118,20 +118,15 @@ body{
     border: 2px solid var(--cream);
   }
 
-  article a img:hover{
-    transform: scale(1.01);
-  }
-
-  article a img:active{
-    transform: scale(.98);
-  }
-
   article a{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 2px solid var(--cream);
     margin: 50px;
+  }
+  
+  article a img{
+    border: 2px solid var(--cream);
   }
 
   .card{
@@ -152,6 +147,16 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     object-fit: cover;
+  }
+
+  article a img:hover{
+    transform: scale(1.01);
+  }
+
+  article a img:active{
+    border: none;
+    transform: scale(.98);
+    box-shadow: inset 0 0 10px var(--sand);
   }
 
   aside{
