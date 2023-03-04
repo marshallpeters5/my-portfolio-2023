@@ -9,6 +9,7 @@
 }
 
 body{
+  color: var(--cream);
   text-shadow: 5px 5px 10px var(--charcoal);
 }
 
@@ -114,6 +115,12 @@ body{
     align-items: center;
   }
 
+  article h2{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid var(--cream);
+  }
+
   article a{
     display: flex;
     flex-wrap: wrap;
@@ -181,6 +188,7 @@ body{
     padding: 20px;
     background-color: var(--tigerseye);
     color: var(--cream);
+    border-radius: 10px;
     border: 2px solid var(--cream);
     text-shadow: 5px 5px 10px var(--charcoal);
     box-shadow: 20px 20px 20px var(--charcoal);
@@ -249,6 +257,10 @@ body{
 @media only screen and (max-width: 500px){
   content p{
     font-size: 9px;
+    font-weight: lighter;
+  }
+  article h2{
+    font-size: small;
     font-weight: lighter;
   }
   #primary{
