@@ -116,6 +116,7 @@ body{
     margin: 10px;
     padding: 10px;
     border: 2px solid var(--cream);
+    font-weight: lighter;
   }
 
   article a{
@@ -133,7 +134,7 @@ body{
     margin: 20px;
     box-shadow: 5px 5px 10px var(--charcoal);
     border: 2px solid var(--cream);
-    background-image: url(./photos/yellow-purple-gradient.png);
+    background-image: url("./photos/purple-vector.jpg");
   }
 
   .secondary{
@@ -164,7 +165,7 @@ body{
     height: 2500px;
     width: 20%;
     border-right: 2px solid var(--cream);
-    background-image: url("./photos/yellow-purple-gradient.png");
+    background-image: url("./photos/purple-vector.jpg");
   }
 
   aside h3{
